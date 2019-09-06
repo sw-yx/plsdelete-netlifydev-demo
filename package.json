@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "postinstall": "netlify-lambda install",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -27,5 +28,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "netlify-lambda": "^1.6.3"
   }
 }
