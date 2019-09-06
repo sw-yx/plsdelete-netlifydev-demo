@@ -1,3 +1,4 @@
 [build]
+  build="yarn build"
   publish="build"
   functions="functions"
